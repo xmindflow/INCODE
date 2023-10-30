@@ -4,12 +4,12 @@
 
 INCODE is a new method that improves Implicit Neural Representations (INRs) by dynamically adjusting activation functions using deep prior knowledge. Specifically, INCODE comprises a harmonizer network and a composer network, where the harmonizer network dynamically adjusts key parameters of the composer's activation function. It excels in signal representation, handles various tasks such as audio, image, and 3D reconstructions, and tackles complex challenges like neural radiance fields (NeRFs) and inverse problems (denoising, super-resolution, inpainting, CT reconstruction). 
 
-> [Amirhossein Kazerouni](https://amirhossein-kz.github.io/), [Reza Azad](https://rezazad68.github.io/), [Alireza Hosseini](https://xmindflow.github.io/incode), [Dorit Merhof](https://scholar.google.com/citations?user=0c0rMr0AAAAJ&hl=en), [Ulas Bagci](https://scholar.google.com/citations?user=9LUdPM4AAAAJ&hl=en) 
+> [*Amirhossein Kazerouni*](https://amirhossein-kz.github.io/), [*Reza Azad*](https://rezazad68.github.io/), [*Alireza Hosseini*](https://xmindflow.github.io/incode), [*Dorit Merhof*](https://scholar.google.com/citations?user=0c0rMr0AAAAJ&hl=en), [*Ulas Bagci*](https://scholar.google.com/citations?user=9LUdPM4AAAAJ&hl=en) 
 
 <br>
 
 <p align="center">
-  <img src="" width="900">
+  <img src="https://github.com/xmindflow/INCODE/assets/61879630/84032d18-f0a5-403c-b1bb-efd2102c0b66" width="900">
 </p>
 
 ## 💥 News 💥
@@ -41,10 +41,10 @@ The shape experiment can be reproduced by running the `train_sdf.ipynb` notebook
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/note.svg">
 >   <img alt="Note" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/note.svg">
 > </picture><br>
-> If you wish to test the model with a custom input shape, you can run the `preprocess_sdf.ipynb` notebook, which will generate a pre-processed `.npy` file for your desired shape.
+> To test the model with custom input data, you can run the <code>preprocess_sdf.ipynb</code> notebook, which will generate a pre-processed <code>.npy</code> file for your desired input.
 >
 > <br>
->  The output is a `.dae` file that can be visualized using a software such as [Meshlab](https://www.meshlab.net/#download) (a cross-platform visualizer and editor for 3D models).
+>  The output is a <code>.dae</code> file that can be visualized using software such as Meshlab (a cross-platform visualizer and editor for 3D models).
 
 ### Image Denoising
 The denoising experiment can be reproduced by running the `train_denoising.ipynb` notebook.
