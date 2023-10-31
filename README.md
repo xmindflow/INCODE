@@ -59,8 +59,7 @@ The CT reconstruction experiment can be reproduced by running the `train_ct_reco
 The inpainting experiment can be reproduced by running the `train_inpainting.ipynb` notebook.
 
 ## Documentation
-If you would like to replace the INCODE with other methods, including `SIREN`, `Gauss`, `ReLU`, `SIREN`, `WIRE`, `WIRE2D`,`FFN`, please refer to the Readme in the documentation folder.
-
+If you would like to replace the INCODE with other methods, including `SIREN`, `Gauss`, `ReLU`, `SIREN`, `WIRE`, `WIRE2D`,`FFN`, please refer to the [Readme](https://github.com/xmindflow/INCODE/tree/main/documentation) in the documentation folder.
 
 
 ## Acknowledgement
