@@ -4,12 +4,13 @@
 
 INCODE is a new method that improves Implicit Neural Representations (INRs) by dynamically adjusting activation functions using deep prior knowledge. Specifically, INCODE comprises a harmonizer network and a composer network, where the harmonizer network dynamically adjusts key parameters of the composer's activation function. It excels in signal representation, handles various tasks such as audio, image, and 3D reconstructions, and tackles complex challenges like neural radiance fields (NeRFs) and inverse problems (denoising, super-resolution, inpainting, CT reconstruction). 
 
-> [*Amirhossein Kazerouni*](https://amirhossein-kz.github.io/), [*Reza Azad*](https://rezazad68.github.io/), [*Alireza Hosseini*](https://xmindflow.github.io/incode), [*Dorit Merhof*](https://scholar.google.com/citations?user=0c0rMr0AAAAJ&hl=en), [*Ulas Bagci*](https://scholar.google.com/citations?user=9LUdPM4AAAAJ&hl=en) 
+> [*Amirhossein Kazerouni*](https://amirhossein-kz.github.io/), [*Reza Azad*](https://rezazad68.github.io/), [*Alireza Hosseini*](https://xmindflow.github.io/incode), [*Dorit Merhof*](https://scholar.google.com/citations?user=0c0rMr0AAAAJ&hl=en), [*Ulas Bagci*](https://scholar.google.com/citations?user=9LUdPM4AAAAJ&hl=en)
+>
 
 <br>
 
 <p align="center">
-  <img src="https://github.com/xmindflow/INCODE/assets/61879630/84032d18-f0a5-403c-b1bb-efd2102c0b66" width="900">
+  <img src="https://github.com/xmindflow/INCODE/assets/61879630/3065d887-6f36-47b3-80ea-239a49a87cb4" width="950">
 </p>
 
 ## 💥 News 💥
