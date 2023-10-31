@@ -1,6 +1,6 @@
 # INCODE: Implicit Neural Conditioning with Prior Knowledge Embeddings <br> <span style="float: rigth"><sub><sup>WACV 2024</sub></sup></span>
 
-### [Project Page](https://xmindflow.github.io/incode) | [Paper]() | [Data]()
+### [Project Page](https://xmindflow.github.io/incode) | [Paper](https://arxiv.org/abs/2310.18846) | [Data](https://drive.google.com/uc?export=download&id=1zOXY05K_E_mtlWLdFgb3N-X3yA2XmJ3J)
 
 INCODE is a new method that improves Implicit Neural Representations (INRs) by dynamically adjusting activation functions using deep prior knowledge. Specifically, INCODE comprises a harmonizer network and a composer network, where the harmonizer network dynamically adjusts key parameters of the composer's activation function. It excels in signal representation, handles various tasks such as audio, image, and 3D reconstructions, and tackles complex challenges like neural radiance fields (NeRFs) and inverse problems (denoising, super-resolution, inpainting, CT reconstruction). 
 
@@ -19,7 +19,7 @@ INCODE is a new method that improves Implicit Neural Representations (INRs) by d
 ## Get started
 
 ### Data
-You can download the data utilized in the paper from this  [link]().
+You can download the data utilized in the paper from this  [link](https://drive.google.com/uc?export=download&id=1zOXY05K_E_mtlWLdFgb3N-X3yA2XmJ3J).
 
 ### Requirements
 Install the requirements with:
