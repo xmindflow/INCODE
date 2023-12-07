@@ -4,7 +4,7 @@
 
 INCODE is a new method that improves Implicit Neural Representations (INRs) by dynamically adjusting activation functions using deep prior knowledge. Specifically, INCODE comprises a harmonizer network and a composer network, where the harmonizer network dynamically adjusts key parameters of the composer's activation function. It excels in signal representation, handles various tasks such as audio, image, and 3D reconstructions, and tackles complex challenges like neural radiance fields (NeRFs) and inverse problems (denoising, super-resolution, inpainting, CT reconstruction). 
 
-> [*Amirhossein Kazerouni*](https://amirhossein-kz.github.io/), [*Reza Azad*](https://rezazad68.github.io/), [*Alireza Hosseini*](https://xmindflow.github.io/incode), [*Dorit Merhof*](https://scholar.google.com/citations?user=0c0rMr0AAAAJ&hl=en), [*Ulas Bagci*](https://scholar.google.com/citations?user=9LUdPM4AAAAJ&hl=en)
+> [*Amirhossein Kazerouni*](https://amirhossein-kz.github.io/), [*Reza Azad*](https://rezazad68.github.io/), [*Alireza Hosseini*]([https://xmindflow.github.io/incode](https://arhosseini77.github.io/)), [*Dorit Merhof*](https://scholar.google.com/citations?user=0c0rMr0AAAAJ&hl=en), [*Ulas Bagci*](https://scholar.google.com/citations?user=9LUdPM4AAAAJ&hl=en)
 >
 
 <br>
