@@ -69,10 +69,11 @@ We thank the authors of [WIRE](https://github.com/vishwa91/wire), [MINER_pl](htt
 
 ## Citation
 ```bibtex
-@article{kazerouni2023incode,
+@inproceedings{kazerouni2024incode,
   title={INCODE: Implicit Neural Conditioning with Prior Knowledge Embeddings},
   author={Kazerouni, Amirhossein and Azad, Reza and Hosseini, Alireza and Merhof, Dorit and Bagci, Ulas},
-  journal={arXiv preprint arXiv:2310.18846},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={1298--1307},
+  year={2024}
 }
 ```
