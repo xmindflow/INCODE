@@ -12,3 +12,5 @@ tqdm
 numpy
 skimage
 Pillow
+pytorch_msssim
+kornia
