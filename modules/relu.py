@@ -46,6 +46,10 @@ class INR(nn.Module):
     def __init__(self, in_features, hidden_features, hidden_layers, out_features, ffn_type=None, outermost_linear=True,
                  pos_encode_configs={'type':None, 'use_nyquist': None, 'scale_B': None, 'mapping_input': None}):
         super().__init__()
+        
+        self.task = None
+        if in_features == 1:
+            self.task = 'audio'
 
         
         if ffn_type == 'relu':
@@ -92,7 +96,7 @@ class INR(nn.Module):
             self.net.append(self.nonlin(hidden_features, out_features))
         
         
-        if ffn_type in ['relu', 'swish']:
+        if ffn_type in ['relu', 'swish'] and self.task != 'audio':
             self.net.append(nn.Sigmoid())
 
         self.net = nn.Sequential(*self.net)
