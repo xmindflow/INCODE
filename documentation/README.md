@@ -217,6 +217,6 @@ model = INR('finer').run(
 - **`first_bias_scale:`** The bias scaling applied to the first layer.  If `first_bias_scale` is provided, the bias for the first layer is initialized using a uniform distribution between `-first_bias_scale` and `first_bias_scale`.
 - **`scale_req_grad:`** A flag indicating whether the scaling parameters should be trainable. If set to True, the model learns optimal scale values during training, and the scale generation process will track gradients for backpropagation. If set to False, the scale is computed without gradient tracking, which can save memory and computation.
 
-- $\text{activation function} : \sin(\omega \cdot x \cdot \text{scale}), \; \; \; \text{scale=}|x| + 1$
+- $\text{activation function} : \sin(\omega \cdot x \cdot \text{scale}), \text{scale=}|x| + 1$
 
 ---
