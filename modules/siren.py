@@ -14,7 +14,6 @@ class SineLayer(nn.Module):
         bias (bool, optional): If True, the linear transformation includes a bias term. Default is True.
         is_first (bool, optional): If it is the first layer, we initialize the weights differently. Default is False.
         omega_0 (float, optional): Frequency scaling factor for the sinusoidal activation. Default is 30.
-        scale (float, optional): Scaling factor for the output of the sine activation. Default is 10.0.
         init_weights (bool, optional): If True, initializes the layer's weights according to the SIREN paper. Default is True.
 
     '''

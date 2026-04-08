@@ -220,3 +220,22 @@ model = INR('finer').run(
 - $\text{activation function} : \sin(\omega \cdot x \cdot \text{scale}), \text{scale=}|x| + 1$
 
 ---
+
+### ReLIFT
+[[Paper](https://arxiv.org/abs/2503.15420)] [[Project](https://amirhossein-kz.github.io/lift/)]
+```python
+model = INR('relift').run(
+    in_features=2,
+    out_features=3,
+    hidden_features=256,
+    hidden_layers=3,
+    first_omega_0=40.0,
+    hidden_omega_0=40.0,
+    first_omega_0_scale=2.0,
+    pos_encode_configs=pos_encode_no)
+```
+- **`first_omega_0:`** The value of $\omega$ used in the first sinusoidal layer.
+- **`hidden_omega_0:`** The value of $\omega$ used in the residual sinusoidal hidden layers.
+- **`first_omega_0_scale:`** An extra scaling factor applied only to the first layer to increase its effective frequency range.
+- $\text{first layer} : \sin(\text{scale} \cdot \omega \cdot x)$
+- $\text{hidden layers} : \sin(\omega \cdot x) + x$

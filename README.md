@@ -14,6 +14,7 @@ INCODE is a new method that improves Implicit Neural Representations (INRs) by d
 </p>
 
 ## 💥 News 💥
+- **`08.04.2026`** | Check out our new work, [LIFT](https://github.com/amirhossein-kz/LIFT), and its variant, [ReLIFT](documentation/README.md#relift), now included in this repo!
 - **`30.10.2023`** | Code is released!
 - **`24.10.2023`** | Accepted in WACV 2024! 🥳
 

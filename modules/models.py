@@ -7,6 +7,7 @@ from . import wire
 from . import wire2d
 from . import incode
 from . import finer
+from . import relift
 
 
 model_dict = {'gauss': gauss,
@@ -17,7 +18,8 @@ model_dict = {'gauss': gauss,
               'wire2d': wire2d,
               'ffn': None,
               'incode': incode,
-              'finer': finer}
+              'finer': finer,
+              'relift': relift}
 
 
 class INR():
